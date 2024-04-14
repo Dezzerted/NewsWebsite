@@ -155,4 +155,5 @@ footer a {
 footer a:hover {
     transform: scale(1.4);
     background-color: rgb(226, 184, 45);
+    color: rgb(10, 190, 34);
 }
