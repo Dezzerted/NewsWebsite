@@ -13,9 +13,9 @@ body {
 header {
     width: 99,9%;
     height: 250px;
-    background-size: 20% 100%;
+    background-size: 25% 100%;
     background-repeat: repeat-x;
-    background-image: url(https://static.wikia.nocookie.net/spongebob/images/3/3b/SpongeBob_Intro_1999_%283%29.png/revision/latest?cb=20170429063008);
+    background-image: url(https://i.pinimg.com/736x/ba/c6/04/bac6042807c10a7e86e235d453af5b92.jpg);
     border: solid 4px;
     display: flex;
     justify-content: center;
@@ -127,7 +127,7 @@ p {
 footer {
     width: 99,9%;
     height: 250px;
-    background-size: 20% 100%;
+    background-size: 25% 100%;
     background-repeat: repeat-x;
     background-image: url(https://papik.pro/izobr/uploads/posts/2023-03/thumbs/1679735040_papik-pro-p-spanch-bob-peizazh-7.png);
     border: solid 4px;
