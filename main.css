@@ -1,0 +1,158 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: burlywood;
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+
+header {
+    width: 99,9%;
+    height: 250px;
+    background-size: 20% 100%;
+    background-repeat: repeat-x;
+    background-image: url(https://static.wikia.nocookie.net/spongebob/images/3/3b/SpongeBob_Intro_1999_%283%29.png/revision/latest?cb=20170429063008);
+    border: solid 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgb(237, 248, 87);
+    font-size: 50px; color: rgb(13, 129, 129);
+    font-weight: bolder;
+    width: 700px;
+    height: 80px;
+    border-radius: 20px;
+    border: dotted 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container1 {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 300px;
+}
+
+#container1 img {
+    width: 250px;
+    height: 350px;
+}
+
+.news {
+    margin-top: -350px;
+}
+
+article a {
+    background-color: rgb(228, 200, 163);
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+
+article a:hover {
+    color: rgb(10, 190, 34);
+}
+
+.article-meta {
+    background-color: rgb(228, 200, 163);
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+article {
+    width: 1300px;
+    margin: 0 auto 25px;
+    border: solid 4px;
+}
+
+article img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
+
+.news article:nth-child(even) {
+    background-color: cadetblue;
+}
+
+p {
+    background-color: rgb(228, 200, 163);
+    padding: 30px;
+    margin: 0;
+    font-size: 25px;
+}
+
+.twoimagescontainer {
+    display: flex;
+}
+
+.SB {
+    font-weight: bolder; 
+    color: rgb(238, 255, 0);
+}
+
+#Patrick {
+    font-weight: bolder; 
+    color: rgb(255, 0, 157);
+}
+
+#news2 {
+    font-style: oblique; 
+    color: crimson; 
+    font-weight: bold;
+}
+
+.first2::before {
+    content: "new";
+    background-color: rgb(0, 255, 55);
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+footer {
+    width: 99,9%;
+    height: 250px;
+    background-size: 20% 100%;
+    background-repeat: repeat-x;
+    background-image: url(https://papik.pro/izobr/uploads/posts/2023-03/thumbs/1679735040_papik-pro-p-spanch-bob-peizazh-7.png);
+    border: solid 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    background-color: rgb(237, 248, 87); 
+    font-size: 30px; color: rgb(13, 129, 129);
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 80px;
+    width: 350px;
+    height: 80px;
+    border-radius: 40px;
+    border: dotted 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+footer a:hover {
+    transform: scale(1.4);
+    background-color: rgb(226, 184, 45);
+}
